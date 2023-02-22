@@ -21,7 +21,7 @@ app.use("/user", userRoutes);
 app.use("/answer", answerRoutes);
 app.use("/questions", questionRoutes);
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 
 
